@@ -1,0 +1,11 @@
+.expenses-list {
+  list-style: none;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.expenses-list__fallback {
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
