@@ -30,7 +30,7 @@ const App = () => {
 
   return (
     <div>
-      {expenses.map(expense => <Expenses expense={expense} />)}
+      {expenses.map(expense => <Expenses key={expense.id} expense={expense} />)}
     </div>
   );
 }

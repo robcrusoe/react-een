@@ -1,4 +1,4 @@
-# React|Een
+# React | Een
 
 A simple application to play around with React.js
 

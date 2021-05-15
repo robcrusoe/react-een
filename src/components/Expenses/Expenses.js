@@ -5,7 +5,7 @@ import './Expenses.css';
 const Expenses = (props) => {
     return (
         <Card className='expenses'>
-            <ExpenseItem id={props.expense.id} title={props.expense.title} amount={props.expense.amount} date={props.expense.date} />
+            <ExpenseItem title={props.expense.title} amount={props.expense.amount} date={props.expense.date} />
         </Card>
     );
 }
