@@ -5,3 +5,8 @@
   width: 50rem;
   max-width: 95%;
 }
+
+.default-message {
+  color: bisque;
+  font-family: sans-serif;
+}
