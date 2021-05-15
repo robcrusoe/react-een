@@ -1,8 +1,8 @@
-import Card from './Card';
+import Card from './../UI/Card';
 import ExpenseDate from './ExpenseDate';
 import './ExpenseItem.css'
 
-function ExpenseItem(props) {
+const ExpenseItem = (props) => {
     return (
         /* React components should have only `one` root element */
         <Card className='expense-item'>
